@@ -1,4 +1,4 @@
-{% set version = "0.10.1" %}
+{% set version = "0.11.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/piar_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/piar/piar_{{ version }}.tar.gz
-  sha256: 687bef45bc32342f156fc3833a0f770ad555ea1cfda424b19c7f796053c3e9a7
+  sha256: d66599135f2f2cb2fcdba714253ee38b286370475662a65827e5c195c1c199d0
 
 build:
   number: 0
